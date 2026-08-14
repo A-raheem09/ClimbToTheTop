@@ -1,0 +1,10 @@
+[gd_resource type="Theme" format=3 uid="uid://ema72uwvri5w"]
+
+[ext_resource type="FontFile" uid="uid://dahxpwdxjl0i" path="res://Assets/Fonts/ggsans-Medium.ttf" id="1_np3qk"]
+[ext_resource type="FontFile" uid="uid://bab3obj1fd138" path="res://Assets/Fonts/ggsans-Normal.ttf" id="2_vrrfi"]
+
+[resource]
+RichTextLabel/font_sizes/bold_font_size = 32
+RichTextLabel/font_sizes/normal_font_size = 24
+RichTextLabel/fonts/bold_font = ExtResource("1_np3qk")
+RichTextLabel/fonts/normal_font = ExtResource("2_vrrfi")

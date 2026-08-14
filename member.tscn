@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://be4aaha703pij"]
+
+[ext_resource type="Script" uid="uid://ksavm4073huj" path="res://membernode.gd" id="1_ma3mb"]
+[ext_resource type="Texture2D" uid="uid://dtt1sbgw0j5ub" path="res://Assets/Textures/EnderMail.png" id="2_hol3j"]
+[ext_resource type="Texture2D" uid="uid://db2uqpq0elpo8" path="res://Assets/Textures/Offline.png" id="3_8cq4b"]
+[ext_resource type="Theme" uid="uid://ema72uwvri5w" path="res://Assets/Themes/discord_labels.tres" id="4_tybge"]
+
+[node name="memberlist" type="HBoxContainer" unique_id=344221324]
+anchors_preset = -1
+anchor_right = 0.298
+anchor_bottom = 0.119
+offset_right = -408.08002
+offset_bottom = -86.520004
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ma3mb")
+
+[node name="PFP" type="TextureRect" parent="." unique_id=1230392119]
+layout_mode = 2
+texture = ExtResource("2_hol3j")
+stretch_mode = 4
+
+[node name="OnlineStatus" type="TextureRect" parent="PFP" unique_id=60599501]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 32.0
+offset_right = 56.0
+offset_bottom = 40.0
+texture = ExtResource("3_8cq4b")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1033001269]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="RichTextLabel" type="RichTextLabel" parent="PanelContainer" unique_id=1362786074]
+layout_mode = 2
+theme = ExtResource("4_tybge")
+text = "EnderMail"

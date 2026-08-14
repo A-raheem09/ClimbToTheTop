@@ -1,0 +1,21 @@
+[gd_resource type="Theme" format=3 uid="uid://b54tan4jgqpwf"]
+
+[ext_resource type="Texture2D" uid="uid://2ilhk66jnswg" path="res://Assets/Textures/DihcordBackground.png" id="1_l51vo"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k8u0w"]
+texture = ExtResource("1_l51vo")
+texture_margin_left = 4.0
+texture_margin_top = 5.0
+texture_margin_right = 4.0
+texture_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d6j5s"]
+texture = ExtResource("1_l51vo")
+texture_margin_left = 4.0
+texture_margin_top = 4.0
+texture_margin_right = 4.0
+texture_margin_bottom = 4.0
+
+[resource]
+Panel/styles/panel = SubResource("StyleBoxTexture_k8u0w")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_d6j5s")

@@ -1,0 +1,23 @@
+[gd_resource type="Theme" format=3 uid="uid://8olkttctxyp"]
+
+[ext_resource type="FontFile" uid="uid://dahxpwdxjl0i" path="res://Assets/Fonts/ggsans-Medium.ttf" id="1_n1rm8"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dy7ct"]
+bg_color = Color(0.25882354, 0.2784314, 0.3019608, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_glbon"]
+bg_color = Color(0.16973042, 0.18135652, 0.19685784, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mi88q"]
+bg_color = Color(0.13725491, 0.15294118, 0.16470589, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nlkkf"]
+bg_color = Color(0.25405478, 0.27259606, 0.29484478, 1)
+
+[resource]
+Button/font_sizes/font_size = 32
+Button/fonts/font = ExtResource("1_n1rm8")
+Button/styles/disabled = SubResource("StyleBoxFlat_dy7ct")
+Button/styles/hover = SubResource("StyleBoxFlat_glbon")
+Button/styles/normal = SubResource("StyleBoxFlat_mi88q")
+Button/styles/pressed = SubResource("StyleBoxFlat_nlkkf")
